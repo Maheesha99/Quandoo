@@ -118,9 +118,6 @@ cmd.click(btn_login);
 |resolveElement(By by)|WebElement|
 |resolveElement(By by, int timeoutInSeconds)|WebElement|
 
-
-
-
 ### Define elements
 In this framework we define elements in the src/main/java/pageObjects folder
 
@@ -178,6 +175,12 @@ stepDefinition Methods|camel case|userGoBackFromTheAdvanceSearchView()|
 |tab_review|tab|tab|
 |link_signupNow|link|link|
 |chk_termsAndConditions|chk|checkbox|
+
+## Next possible steps for improvements
+1. Use docker image and make the machine configuration easy
+2. Enhance the framework to handle iOS platform upon the requirement
+3. CI/CD integration. execute the test suite as a nightly build
+4. Integrate rest API(if available) for data population(Test data creation)
 
 ## Test Cases
 Attached an Excel file into the ***z_supportDocs*** folder
