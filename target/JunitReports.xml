@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="60.032">
+    <testcase classname="Restaurants" name="Verify User signup and navigate to review section of a selected restaurant" time="59.796">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user accept the device location Alert if available....................passed
+And user landed on to the home page and verify "Discovery" label............passed
+Then user search a "Italian" restaurant in "Berlin".........................passed
+Then user filter "Open Now" from the result list............................passed
+Then user do an advance filter by having "4","nextday","17:00"..............passed
+Then user select "2" from the results list..................................passed
+Then user navigate to review section of the restaurant......................passed
+Then user go back from the restaurant details view..........................passed
+Then user go back from the advance search view..............................passed
+Then user go back from the simple search view...............................passed
+Then user click on Hamburger menu...........................................passed
+Then user logout from the application.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at utils.commandBase.verifyPassOrFail(commandBase.java:379)
+	at utils.commandBase.click(commandBase.java:81)
+	at pageObjects.commonPage.clickOnLogout(commonPage.java:71)
+	at stepDefinitions.common.userLogoutFromTheApplication(common.java:49)
+	at ✽.user logout from the application(file:///C:/Quandoo/src/test/java/featureFiles/Restaurants.feature:31)
+]]></failure>
+    </testcase>
+</testsuite>
