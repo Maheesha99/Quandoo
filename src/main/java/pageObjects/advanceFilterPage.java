@@ -11,7 +11,7 @@ public class advanceFilterPage {
     String filter_mainFilter = "id==de.quandoo.android.consumerapp:id/search_results_availability_details_area";
     String rdo_selections = "xpath==//android.widget.RadioButton[contains(@text,'<>')]"; //parameterized element (generalized)
     String btn_apply = "id==de.quandoo.android.consumerapp:id/apply_button";
-    String view_peopleCount = "id==de.quandoo.android.consumerapp:id/people_count_recycler_view";
+    //String view_peopleCount = "id==de.quandoo.android.consumerapp:id/people_count_recycler_view";
     String view_time = "id==de.quandoo.android.consumerapp:id/time_recycler_view";
 
     public void userClickOnAdvancedFilter() {
