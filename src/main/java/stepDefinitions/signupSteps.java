@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 import pageObjects.commonPage;
 import pageObjects.signupPage;
 
-public class signup {
+public class signupSteps {
     //This class maintains all the step definitions related to signup flow
     commonPage pg_common = new commonPage();
     signupPage pg_signup = new signupPage();

@@ -3,7 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.en.Then;
 import pageObjects.restaurantPage;
 
-public class restaurant {
+public class restaurantSteps {
 
     //This class maintains all the step definitions related to restaurant page
     restaurantPage pg_restaurant = new restaurantPage();

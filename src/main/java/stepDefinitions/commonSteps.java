@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import pageObjects.commonPage;
 
-public class common {
+public class commonSteps {
     //This class maintains all the step definitions which are common for the entire application
 
     commonPage pg_common = new commonPage();

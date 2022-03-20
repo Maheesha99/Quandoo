@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 import pageObjects.advanceFilterPage;
 import pageObjects.restaurantPage;
 
-public class advanceFilter {
+public class advanceFilterSteps {
     //This class maintains all the step definitions related to advanced filter flow
 
     advanceFilterPage pg_advanceFilter = new advanceFilterPage();
