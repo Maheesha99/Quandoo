@@ -16,7 +16,7 @@ public class advanceFilterSteps {
         pg_advanceFilter.userClickOnAdvancedFilter();
         pg_advanceFilter.selectNumberOfPeople(numOfPeople);
         pg_advanceFilter.selectADate(date);
-      //  pg_advanceFilter.selectATime(time);
+        pg_advanceFilter.selectATime(time);
         pg_advanceFilter.clickOnApplyButton();
     }
 
