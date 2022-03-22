@@ -1,5 +1,4 @@
 # Quandoo
-Assignment for the Mobile QA engineer position
 
 ## How to setup the Windows Machine in order to execute the Test cases in ANDROID real device
 
